@@ -1,120 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LBIMA Lab</title>
-<style>
-  body { margin:0; font-family: Arial, sans-serif; background:#f4f6f8; color:#333; }
-  header { position: fixed; top:0; width:100%; background:#1f4e79; color:white; z-index:999; display:flex; flex-direction:column; align-items:center; padding:10px 0; }
-  .logo { height:100px; margin-bottom:5px; }
-  nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; transition:0.3s; }
-  nav a:hover { color:#ffcc00; }
-  body { padding-top:160px; }
-  section { max-width:900px; margin:60px auto; padding:20px; opacity:0; transform: translateY(40px); transition: all 0.6s ease-out; }
-  section.visible { opacity:1; transform: translateY(0); }
-  h2 { color:#1f4e79; border-bottom:2px solid #1f4e79; padding-bottom:6px; margin-bottom:18px; }
-  ul { list-style:none; padding-left:0; }
-  li { margin-bottom:14px; }
-  .btn { background:#1f4e79; color:#fff; padding:6px 12px; border-radius:4px; text-decoration:none; margin-left:8px; font-size:0.9em; }
-  .btn:hover { background:#163a58; }
-  footer { text-align:center; padding:18px 0; background:#1f4e79; color:white; margin-top:40px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBIMA Lab</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f6f8; color: #333; }
+        header { background: #1f4e79; color: white; text-align: center; padding: 40px 20px; }
+        .logo { height: 120px; margin-bottom: 10px; }
+        nav { background: #163a58; text-align: center; padding: 10px 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h2 { color: #1f4e79; border-bottom: 2px solid #1f4e79; padding-bottom: 6px; margin-bottom: 18px; }
+        ul { list-style: none; padding-left: 0; }
+        li { margin-bottom: 12px; line-height: 1.5; }
+        .btn { background: #1f4e79; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 0.9em; margin-left: 8px; }
+        footer { text-align: center; padding: 18px 0; background: #1f4e79; color: white; margin-top: 40px; }
+    </style>
 </head>
 <body>
 
 <header>
-  <img src="images/logo.png" alt="LBIMA Lab Logo" class="logo">
-  <h1>Laboratory of Biotechnology, Immunology and Applied Microbiology</h1>
-  <nav>
+    <img src="images/logo.png" alt="LBIMA Lab Logo" class="logo">
+    <h1>LBIMA Lab</h1>
+    <p>Laboratory of Biotechnology, Immunology and Applied Microbiology</p>
+</header>
+
+<nav>
     <a href="#about">About</a>
-    <a href="#team">Team</a>
+    <a href="#students">Students & Collaborators</a>
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
     <a href="#contact">Contact</a>
-  </nav>
-</header>
+</nav>
 
 <section id="about">
-  <h2>About Us</h2>
-  <p>The LBIMA Lab conducts innovative research in molecular microbiology, immunology, antimicrobial resistance mechanisms, and applied biotechnology to develop therapeutic strategies and vaccines.</p>
-  <p><strong>Coordinator:</strong> Maria Cristina da Silva Pranchevicius – ORCID: <a href="https://orcid.org/0000-0002-0416-7401" target="_blank">0000‑0002‑0416‑7401</a></p>
+    <h2>About Us</h2>
+    <p>
+        The LBIMA Lab conducts research at the interface of molecular microbiology and applied biotechnology. 
+        Our studies focus on clinically relevant bacteria, exploring their molecular characteristics and adaptive strategies to understand microbial behavior and identify potential biotechnological applications.
+    </p>
+    <p>
+        <strong>Coordinator:</strong> Maria Cristina da Silva Pranchevicius <br>
+        ORCID: <a href="https://orcid.org/0000-0002-0416-7401" target="_blank">0000‑0002‑0416‑7401</a>
+    </p>
 </section>
 
-<section id="team">
-  <h2>Students & Collaborators</h2>
-  <ul>
-    <li><strong>Master Student:</strong> Filiphy José de Souza</li>
-    <li><strong>Undergraduate Students / Scientific Initiation:</strong> Natália Ribeiro Crispim; Maria Carolina Francalassi Sarcinelli; Pedro Esposti Romano</li>
-    <li><strong>Interns:</strong> Sophia Pazin Colchesqui; Larissa Assis Cardoso; Beatriz Goncales Lavez Silva; Julia Lucchesi Ramos</li>
-    <li><strong>Collaborating Researcher:</strong> Rebecca Elizabeth Waterhouse Shilling Mesquita</li>
-  </ul>
+<section id="students">
+    <h2>Students & Collaborators</h2>
+    <ul>
+        <li><strong>Master Student:</strong> Filiphy José de Souza</li>
+        <li><strong>Undergraduate / Scientific Initiation:</strong> Natália Ribeiro Crispim; Maria Carolina Francalassi Sarcinelli; Pedro Esposti Romano</li>
+        <li><strong>Interns:</strong> Sophia Pazin Colchesqui; Larissa Assis Cardoso; Beatriz Goncales Lavez Silva; Julia Lucchesi Ramos</li>
+        <li><strong>Collaborating Researcher:</strong> Rebecca Elizabeth Waterhouse Shilling Mesquita</li>
+    </ul>
 </section>
 
 <section id="research">
-  <h2>Our Research Focus</h2>
-  <p>
-    The LBIMA Lab focuses on cutting-edge research in <strong>molecular microbiology, immunology, bacterial interactions, antimicrobial resistance, and applied biotechnology</strong>. 
-    We study how bacteria interact with each other and with their hosts under different environmental and stress conditions, aiming to develop novel therapeutic strategies, vaccines, and biotechnological applications. 
-    Our work combines <strong>proteomics, immunoinformatics, and molecular analysis</strong> to understand microbial behavior and translate findings into practical solutions for human and animal health.
-  </p>
-  <ul>
-    <li><strong>Antimicrobial resistance:</strong> molecular profiling of resistant pathogens and therapeutic approaches.</li>
-    <li><strong>Microbial interactions and immunomodulation:</strong> studying competition, stress-induced physiological changes, and effects on host immune responses.</li>
-    <li><strong>Biotechnology and vaccine design:</strong> using proteomics and immunoinformatics for next-generation therapeutics.</li>
-  </ul>
+    <h2>Research Focus</h2>
+    <p>
+        The LBIMA Lab focuses on molecular microbiology and bacterial pathogenesis, with an emphasis on clinically relevant Gram-negative bacteria. 
+        We study their molecular characteristics and adaptive responses under antimicrobial challenge. 
+        Our work combines genomic analyses of resistance determinants with immuno-informatic approaches for antigen discovery. 
+        We also develop recombinant vaccine candidates and evaluate their immunogenicity and protective potential in vivo. 
+        We aim to generate insights applicable to biotechnology and infectious disease control.
+    </p>
 </section>
 
 <section id="publications">
-  <h2>Publications (Automatically from PubMed via ORCID)</h2>
-  <ul id="pub-list"></ul>
+    <h2>Publications</h2>
+    <ul>
+        <!-- Exemplos; podem ser substituídos pelo ORCID -->
+        <li>
+            Pranchevicius, M.C.S., Perim, M.C., et al. (2015) Aerobic bacterial profile and antibiotic resistance in diabetic foot infections. <em>Revista da Sociedade Brasileira de Medicina Tropical</em>.  
+            <a href="https://pubmed.ncbi.nlm.nih.gov/26516963/" class="btn" target="_blank">PubMed</a>
+        </li>
+        <li>
+            Mescouto-Borges, M.R.M., Maués, É., Lamounier Costa, D., Pranchevicius, M.C.S. & Sierra Romero, G.A. (2013) Congenitally transmitted visceral leishmaniasis. <em>Brazilian Journal of Infectious Diseases</em>.  
+            <a href="https://pubmed.ncbi.nlm.nih.gov/23453409/" class="btn" target="_blank">PubMed</a>
+        </li>
+        <li>
+            Pranchevicius, M.C.S. & Vieira, T.R. (2013) Production of recombinant immunotherapeutics for anticancer treatment. <em>Bioengineered</em>.  
+            <a href="https://pubmed.ncbi.nlm.nih.gov/23644447/" class="btn" target="_blank">PubMed</a>
+        </li>
+    </ul>
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p><strong>Email:</strong> mcspranc@ufscar.br</p>
-  <p><strong>Phone:</strong> +55 16 3306‑6869</p>
-  <p><strong>Address:</strong> São Carlos, SP, Brazil</p>
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> mcspranc@ufscar.br</p>
+    <p><strong>Phone:</strong> +55 16 3306-6869</p>
+    <p><strong>Address:</strong> São Carlos, SP, Brazil</p>
 </section>
 
 <footer>
-  &copy; 2026 LBIMA Lab — All Rights Reserved
+    &copy; 2026 LBIMA Lab — All Rights Reserved
 </footer>
-
-<script>
-// Scroll animation for sections
-window.addEventListener('scroll', () => {
-  document.querySelectorAll('section').forEach(sec => {
-    if(window.scrollY + window.innerHeight > sec.offsetTop + 100){
-      sec.classList.add('visible');
-    }
-  });
-});
-
-// Fetch publications automatically via ORCID
-async function fetchPublications() {
-  const orcid = "0000-0002-0416-7401";
-  const url = `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ORCID:${orcid}&format=json&resultType=core`;
-
-  try {
-    const response = await fetch(url);
-    const data = await response.json();
-    const list = document.getElementById('pub-list');
-
-    data.resultList.result.forEach(pub => {
-      const li = document.createElement('li');
-      li.innerHTML = `<strong>${pub.authorString}</strong> (${pub.pubYear}) ${pub.title} <em>${pub.journalTitle}</em>
-      <a href="https://pubmed.ncbi.nlm.nih.gov/${pub.pubmedId}/" class="btn" target="_blank">PubMed</a>`;
-      list.appendChild(li);
-    });
-  } catch (err) {
-    document.getElementById('pub-list').innerHTML = "<li>Failed to load publications. Check your internet connection.</li>";
-    console.error(err);
-  }
-}
-
-fetchPublications();
-</script>
 
 </body>
 </html>
