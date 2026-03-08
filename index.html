@@ -1,155 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF‑8">
+    <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
     <title>LBIMA Lab</title>
     <style>
-        /* ======= Estilo Geral ======= */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f8;
-            color: #333;
-        }
-
-        header {
-            background-color: #1f4e79;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        .logo {
-            height: 120px;
-            margin-bottom: 15px;
-        }
-
-        header h1 {
-            margin: 10px 0 5px;
-            font-size: 2.5em;
-        }
-
-        header p {
-            font-size: 1.2em;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        h2 {
-            color: #1f4e79;
-            border-bottom: 2px solid #1f4e79;
-            padding-bottom: 5px;
-            margin-bottom: 20px;
-        }
-
-        #about p {
-            font-size: 1.1em;
-            line-height: 1.8;
-        }
-
-        #publications ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        #publications li {
-            margin-bottom: 15px;
-            line-height: 1.6;
-        }
-
-        #publications li em {
-            font-style: italic;
-        }
-
-        #contact p {
-            margin: 8px 0;
-            font-size: 1.1em;
-        }
-
-        /* ======= Botões ======= */
-        .btn {
-            display: inline-block;
-            background-color: #1f4e79;
-            color: white;
-            text-decoration: none;
-            padding: 8px 16px;
-            border-radius: 5px;
-            font-size: 0.95em;
-            margin-left: 10px;
-        }
-
-        .btn:hover {
-            background-color: #163a58;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #1f4e79;
-            color: white;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 600px) {
-            header h1 { font-size: 2em; }
-            .logo { height: 90px; }
-        }
+        body { font‑family: Arial, sans‑serif; margin: 0; padding: 0; background: #f4f6f8; color: #333; }
+        header { background: #1f4e79; color: #fff; text-align: center; padding: 40px 20px; }
+        .logo { height: 120px; margin‑bottom: 10px; }
+        section { max‑width: 900px; margin: 40px auto; padding: 0 20px; }
+        h2 { color: #1f4e79; border‑bottom: 2px solid #1f4e79; padding‑bottom: 4px; margin‑bottom: 15px; }
+        ul { list‑style: none; padding‑left: 0; }
+        li { margin‑bottom: 12px; line‑height: 1.5; }
+        .btn { background: #1f4e79; color: #fff; padding: 6px 12px; border‑radius: 4px; text‑decoration: none; font‑size: 0.9em; margin‑left: 8px; }
+        .btn:hover { background: #163a58; }
+        footer { text‑align: center; padding: 18px 0; background: #1f4e79; color: white; margin‑top: 40px; }
     </style>
 </head>
 <body>
 
-<!-- ======= Cabeçalho ======= -->
+<!-- Header -->
 <header>
     <img src="images/logo.png" alt="LBIMA Lab Logo" class="logo">
     <h1>LBIMA Lab</h1>
     <p>Laboratory of Bacterial Interactions and Microbial Applications</p>
 </header>
 
-<!-- ======= Sobre ======= -->
+<!-- About -->
 <section id="about">
     <h2>About Us</h2>
-    <p>
-        The LBIMA Lab studies predation-driven bacterial interactions, microbial applications, and stress-induced proteomic remodeling. 
-        We focus on understanding bacterial behavior under environmental and biological stresses, developing strategies for microbial applications in health and biotechnology, 
-        and fostering new collaborations to expand scientific knowledge.
-    </p>
+    <p>LBIMA Lab investigates bacterial interactions, microbial responses under stress, and applications in health and biotechnology. Our research focuses on bacterial ecology, resistance mechanisms, and innovative microbial solutions in industrial and clinical contexts.</p>
 </section>
 
-<!-- ======= Publicações ======= -->
-<section id="publications">
-    <h2>Publications</h2>
+<!-- Team -->
+<section id="team">
+    <h2>Team</h2>
     <ul>
-        <li>Pranchevicius, M.C.S., Oliveira, L.L., Rosa, J.C., Avanci, N.C., Quiapim, A.C., Roque-Barreira, M.C. & Goldman, M.H.S. (2012) Characterization and optimization of ArtinM lectin expression in Escherichia coli. <em>BMC Biotechnology</em>. <a href="#" class="btn">PDF</a></li>
-
-        <li>Ferreira, R.L. et al. (2020) Characterization of KPC-Producing Serratia marcescens in an Intensive Care Unit of a Brazilian Tertiary Hospital. <em>Frontiers in Microbiology</em>. <a href="#" class="btn">PDF</a></li>
-
-        <li>Rodrigues, S.H. et al. (2024) First report of coexistence of blaKPC-2 and blaNDM-1 in carbapenem-resistant clinical isolates of Klebsiella aerogenes in Brazil. <em>Frontiers in Microbiology</em>. <a href="#" class="btn">PDF</a></li>
-
-        <li>Mescouto-Borges, M.R.M. et al. (2013) Congenitally transmitted visceral leishmaniasis: report of two Brazilian human cases. <em>Brazilian Journal of Infectious Diseases</em>. <a href="#" class="btn">PDF</a></li>
-
-        <li>Pranchevicius, M.C.S. & Vieira, T.R. (2013) Production of recombinant immunotherapeutics for anticancer treatment: the role of bioengineering. <em>Bioengineered</em>. <a href="#" class="btn">PDF</a></li>
-
-        <li>Perim, M.C. et al. (2015) Aerobic bacterial profile and antibiotic resistance in patients with diabetic foot infections. <em>Revista da Sociedade Brasileira de Medicina Tropical</em>. <a href="#" class="btn">PDF</a></li>
+        <li><strong>Maria Cristina da Silva Pranchevicius</strong> – Principal Investigator</li>
+        <li>Student 1 – PhD Candidate</li>
+        <li>Student 2 – MSc Candidate</li>
+        <li>Student 3 – Research Assistant</li>
+        <!-- Adicione novos membros aqui -->
     </ul>
 </section>
 
-<!-- ======= Contato ======= -->
+<!-- Publications -->
+<section id="publications">
+    <h2>Publications</h2>
+    <ul>
+        <li>
+            Pranchevicius, M.C.S., Perim, M.C., et al. (2015) Aerobic bacterial profile and antibiotic resistance in patients with diabetic foot infections. <em>Revista da Sociedade Brasileira de Medicina Tropical</em>.
+            <a href="https://pubmed.ncbi.nlm.nih.gov/26516963/" class="btn" target="_blank">PubMed</a>
+        </li>
+        <li>
+            Mescouto‑Borges, M.R.M., Maués, É., Lamounier Costa, D., Pranchevicius, M.C.S. & Sierra Romero, G.A. (2013) Congenitally transmitted visceral leishmaniasis: report of two Brazilian human cases. <em>Brazilian Journal of Infectious Diseases</em>.
+            <a href="https://pubmed.ncbi.nlm.nih.gov/23453409/" class="btn" target="_blank">PubMed</a>
+        </li>
+        <li>
+            Pranchevicius, M.C.S. & Vieira, T.R. (2013) Production of recombinant immunotherapeutics for anticancer treatment: the role of bioengineering. <em>Bioengineered</em>.
+            <a href="https://pubmed.ncbi.nlm.nih.gov/23644447/" class="btn" target="_blank">PubMed</a>
+        </li>
+        <!-- Você pode adicionar outros artigos usando o mesmo formato -->
+    </ul>
+</section>
+
+<!-- Contact -->
 <section id="contact">
     <h2>Contact</h2>
     <p>Email: maria.pranchevicius@example.com</p>
-    <p>Phone: +55 16 1234-5678</p>
+    <p>Phone: +55 16 1234‑5678</p>
     <p>Address: São Carlos, SP, Brazil</p>
 </section>
 
-<!-- ======= Footer ======= -->
+<!-- Footer -->
 <footer>
-    &copy; 2026 LBIMA Lab. All Rights Reserved.
+    &copy; 2026 LBIMA Lab — All Rights Reserved
 </footer>
 
 </body>
